@@ -202,7 +202,7 @@
         const main = document.getElementById('main');
         const search = document.getElementById('search');
 
-        // Mostrar películas populares al cargar
+       
         getMovies(API_URL);
 
         async function getMovies(url) {
@@ -246,7 +246,7 @@
             }
         }
 
-        // Buscar películas
+    
         search.addEventListener('input', (e) => {
             const searchTerm = e.target.value;
 
